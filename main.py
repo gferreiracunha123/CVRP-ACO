@@ -1,3 +1,4 @@
+
 import argparse
 import csv
 import statistics
@@ -185,7 +186,7 @@ if __name__ == '__main__':
     parser.add_argument("--AG", action="store_true", help="Inicia a popualação inicial com Algoritimo genetico")
     parser.add_argument("--num_populations", type=int, default=5, help="Número de populações AG")
     parser.add_argument("--total_iters", type=int, default=100, help="Total de iterações AG")
-    parser.add_argument("--file", type=str, default=100, help="nome do arquivo")
+    parser.add_argument("--file", type=str, default='', help="nome do arquivo")
     # Parseia os argumentos da linha de comando
     args = parser.parse_args()
     ag = "AG_ACO" if args.AG else "ACO"
