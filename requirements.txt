@@ -1,5 +1,5 @@
 networkx
 numpy
-matplotlib
+matplotltib
 scipy
 tsplib95

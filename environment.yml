@@ -1,0 +1,16 @@
+name: cvrp-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - scipy=1.12.0
+  - matplotlib=3.8.2
+  - networkx=3.2.1
+  - pip
+  - pip:
+      - tsplib95==0.7.1
+      - future
+      - tqdm
+
